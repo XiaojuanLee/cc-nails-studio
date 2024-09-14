@@ -1,6 +1,5 @@
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import ServiceCard from '../components/ServiceCard';
 import '../styles/globals.css';
 
 export default function Services() {

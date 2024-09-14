@@ -3,6 +3,7 @@ import Footer from '../components/Footer';
 import BackToTop from '../components/BackToTop';
 import ServiceCard from '../components/ServiceCard';
 import '../styles/globals.css';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -83,9 +84,9 @@ export default function Home() {
             <ServiceCard title="Permanent Makeup" image="/images/permanentmakeup.jpg" />
           </div>
           <div className="text-center mt-8">
-            <a href="/services" className="px-6 py-3 bg-pink-600 text-white font-semibold shadow-md hover:bg-pink-700 focus:outline-none">
+            <Link href="/services" className="px-6 py-3 bg-pink-600 text-white font-semibold shadow-md hover:bg-pink-700 focus:outline-none">
               View All Services
-            </a>
+            </Link>
           </div>
         </section>
 
@@ -99,7 +100,7 @@ export default function Home() {
               <span className='ml-10'>Monday-Friday: 9:30AM to 7:00PM</span> 
               <span className='ml-10'>Saturday: 10:00AM to 6:00PM</span>
               <span className='ml-10'>Sunday: 11:00AM to 5:00PM</span>
-                          </p>
+            </p>
           </div>
           
         </section>
@@ -121,7 +122,7 @@ export default function Home() {
               </iframe>
 
             </div>
-            <p className='mt-10 mx-40'>We are located in the City View Plaza near OK Mart, Giant Tiger, Kumon, Memory Express, City View Shoe repair, Benjamin Moore, Mello's, Happy Lamb Hot Pot, and City View Barber Shop. </p>
+            <p className='mt-10 mx-40'>We are located in the City View Plaza near OK Mart, Giant Tiger, Kumon, Memory Express, City View Shoe repair, Benjamin Moore, Mello&apos;s, Happy Lamb Hot Pot, and City View Barber Shop. </p>
           </div>
         </section>
         
