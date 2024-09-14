@@ -34,7 +34,7 @@ export default function Navbar() {
         <div className="text-black py-2">
           <div className="relative container mx-auto py-2">
             {/* Logo */}
-            <img src="/images/logo.png" alt="" className="h-10 w-auto pl-10"/>
+            <img src="/images/cclogo.png" alt="" className="h-10 w-auto pl-10"/>
             
             {/* 导航菜单 */}
             <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
