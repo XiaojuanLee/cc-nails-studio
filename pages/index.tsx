@@ -133,13 +133,13 @@ export default function Home() {
           </div>
           <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-6">
 
-            <ServiceCard title="" image="/images/feedback1.jpg" />
-            <ServiceCard title="" image="/images/feedback2.jpg" />
-            <ServiceCard title="" image="/images/feedback4.jpg" />
-            {/* <ServiceCard title="" image="/images/feedback3.jpg" />
-            <ServiceCard title="" image="/images/feedback5.jpg" />
-            <ServiceCard title="" image="/images/feedback6.jpg" /> */}
-            <ServiceCard title="" image="/images/feedback7.jpg" /> 
+            <ServiceCard title="" image="/images/customerfeedback1.jpg" />
+            <ServiceCard title="" image="/images/customerfeedback2.jpg" />
+            <ServiceCard title="" image="/images/customerfeedback3.jpg" />
+            {/* <ServiceCard title="" image="/images/customerfeedback4.jpg" />
+            <ServiceCard title="" image="/images/customerfeedback5.jpg" />
+            <ServiceCard title="" image="/images/customerfeedback6.jpg" /> */}
+            <ServiceCard title="" image="/images/customerfeedback7.jpg" /> 
 
           </div>
         </section>
