@@ -29,10 +29,6 @@ export default function Gallery() {
             </div>
 
             <div className="overflow-hidden rounded-lg shadow-lg">
-                <img src="/images/gallery2.jpg" alt="Nail Art 2" className="w-full h-auto"/>
-            </div>
-
-            <div className="overflow-hidden rounded-lg shadow-lg">
                 <img src="/images/gallery3.jpg" alt="Nail Art 3" className="w-full h-auto"/>
             </div>
 
@@ -57,27 +53,7 @@ export default function Gallery() {
             </div>
 
             <div className="overflow-hidden rounded-lg shadow-lg">
-                <img src="/images/gallery10.jpg" alt="Nail Art 10" className="w-full h-auto"/>
-            </div>
-
-            <div className="overflow-hidden rounded-lg shadow-lg">
-                <img src="/images/gallery11.jpg" alt="Nail Art 11" className="w-full h-auto"/>
-            </div>
-
-            <div className="overflow-hidden rounded-lg shadow-lg">
-                <img src="/images/gallery12.jpg" alt="Nail Art 12" className="w-full h-auto"/>
-            </div>
-
-            <div className="overflow-hidden rounded-lg shadow-lg">
-                <img src="/images/gallery13.jpg" alt="Nail Art 13" className="w-full h-auto"/>
-            </div>
-
-            <div className="overflow-hidden rounded-lg shadow-lg">
                 <img src="/images/gallery14.jpg" alt="Nail Art 14" className="w-full h-auto"/>
-            </div>
-
-            <div className="overflow-hidden rounded-lg shadow-lg">
-                <img src="/images/gallery15.jpg" alt="Nail Art 15" className="w-full h-auto"/>
             </div>
 
             <div className="overflow-hidden rounded-lg shadow-lg">
@@ -90,18 +66,6 @@ export default function Gallery() {
 
             <div className="overflow-hidden rounded-lg shadow-lg">
                 <img src="/images/gallery18.jpg" alt="Nail Art 18" className="w-full h-auto"/>
-            </div>
-
-            <div className="overflow-hidden rounded-lg shadow-lg">
-                <img src="/images/gallery19.jpg" alt="Nail Art 19" className="w-full h-auto"/>
-            </div>
-
-            <div className="overflow-hidden rounded-lg shadow-lg">
-                <img src="/images/gallery20.jpg" alt="Nail Art 20" className="w-full h-auto"/>
-            </div>
-
-            <div className="overflow-hidden rounded-lg shadow-lg">
-                <img src="/images/gallery21.jpg" alt="Nail Art 21" className="w-full h-auto"/>
             </div>
 
             <div className="overflow-hidden rounded-lg shadow-lg">
@@ -157,10 +121,6 @@ export default function Gallery() {
             </div>
 
             <div className="overflow-hidden rounded-lg shadow-lg">
-                <img src="/images/gallery37.jpg" alt="Nail Art 37" className="w-full h-auto"/>
-            </div>
-
-            <div className="overflow-hidden rounded-lg shadow-lg">
                 <img src="/images/gallery38.jpg" alt="Nail Art 38" className="w-full h-auto"/>
             </div>
 
@@ -189,16 +149,137 @@ export default function Gallery() {
             </div>
 
             <div className="overflow-hidden rounded-lg shadow-lg">
-                <img src="/images/gallery45.jpg" alt="Nail Art 45" className="w-full h-auto"/>
-            </div>
-
-            <div className="overflow-hidden rounded-lg shadow-lg">
                 <img src="/images/gallery46.jpg" alt="Nail Art 46" className="w-full h-auto"/>
             </div>
 
             <div className="overflow-hidden rounded-lg shadow-lg">
                 <img src="/images/gallery47.jpg" alt="Nail Art 47" className="w-full h-auto"/>
             </div>
+
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery50.jpg" alt="Nail Art 50" className="w-full h-auto"/>
+            </div>
+
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery51.jpg" alt="Nail Art 51" className="w-full h-auto"/>
+            </div>
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery52.jpg" alt="Nail Art 52" className="w-full h-auto"/>
+            </div>
+
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery53.jpg" alt="Nail Art 53" className="w-full h-auto"/>
+            </div>
+
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery54.jpg" alt="Nail Art 54" className="w-full h-auto"/>
+            </div>
+
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery55.jpg" alt="Nail Art 55" className="w-full h-auto"/>
+            </div>
+
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery56.jpg" alt="Nail Art 56" className="w-full h-auto"/>
+            </div>
+
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery59.jpg" alt="Nail Art 59" className="w-full h-auto"/>
+            </div>
+
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery60.jpg" alt="Nail Art 60" className="w-full h-auto"/>
+            </div>
+
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery61.jpg" alt="Nail Art 61" className="w-full h-auto"/>
+            </div>
+
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery62.jpg" alt="Nail Art 62" className="w-full h-auto"/>
+            </div>
+
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery63.jpg" alt="Nail Art 63" className="w-full h-auto"/>
+            </div>
+
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery64.jpg" alt="Nail Art 64" className="w-full h-auto"/>
+            </div>
+
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery65.jpg" alt="Nail Art 65" className="w-full h-auto"/>
+            </div>
+
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery66.jpg" alt="Nail Art 66" className="w-full h-auto"/>
+            </div>
+
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery67.jpg" alt="Nail Art 67" className="w-full h-auto"/>
+            </div>
+
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery68.jpg" alt="Nail Art 68" className="w-full h-auto"/>
+            </div>
+
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery70.jpg" alt="Nail Art 70" className="w-full h-auto"/>
+            </div>
+
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery71.jpg" alt="Nail Art 71" className="w-full h-auto"/>
+            </div>
+
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery72.jpg" alt="Nail Art 72" className="w-full h-auto"/>
+            </div>
+
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery73.jpg" alt="Nail Art 73" className="w-full h-auto"/>
+            </div>
+
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery74.jpg" alt="Nail Art 74" className="w-full h-auto"/>
+            </div>
+
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery75.jpg" alt="Nail Art 75" className="w-full h-auto"/>
+            </div>
+
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery79.jpg" alt="Nail Art 79" className="w-full h-auto"/>
+            </div>
+
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery80.jpg" alt="Nail Art 80" className="w-full h-auto"/>
+            </div>
+
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery81.jpg" alt="Nail Art 81" className="w-full h-auto"/>
+            </div>
+
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery82.jpg" alt="Nail Art 82" className="w-full h-auto"/>
+            </div>
+
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery96.jpg" alt="Nail Art 96" className="w-full h-auto"/>
+            </div>
+
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery97.jpg" alt="Nail Art 97" className="w-full h-auto"/>
+            </div>
+
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery98.jpg" alt="Nail Art 98" className="w-full h-auto"/>
+            </div>
+
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery99.jpg" alt="Nail Art 99" className="w-full h-auto"/>
+            </div>
+
+
         </div>
     </main>
     <BackToTop />
