@@ -27,17 +27,15 @@ export default function Navbar() {
 
   return (
       <nav className="fixed top-0 left-0 w-full bg-white shadow-lg z-50 text-white p-0 border-b border-gray-200">
-        {/* 顶部信息 */}
-        <div><p className='bg-pink-600 text-white text-center p-2'>CC Nails Studio</p></div>
-        
-        {/* 导航栏部分 */}
+        <div><p className='bg-pink-600 text-white text-center p-2 text-3xl'>CC Nails Studio</p></div>
+
         <div className="text-black py-2">
           <div className="relative container mx-auto py-2">
+
             {/* Logo */}
             <img src="/images/cclogo.png" alt="" className="h-10 w-auto pl-10"/>
             
-            {/* 导航菜单 */}
-            <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
+            <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-2xl">
               <ul className="flex space-x-6">
                 <li>
                   <Link href="/" className={isActive('/') ? 'text-pink-600 font-semibold' : 'hover:text-black'}>
