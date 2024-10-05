@@ -23,6 +23,23 @@ export default function Gallery() {
           <p className='mb-12'>Check out our beautiful work!</p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 mx-40">
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery85.jpg" alt="Nail Art 1" className="w-full h-auto"/>
+            </div>
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery86.jpg" alt="Nail Art 1" className="w-full h-auto"/>
+            </div>
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery87.jpg" alt="Nail Art 1" className="w-full h-auto"/>
+            </div>
+
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery94.jpg" alt="Nail Art 1" className="w-full h-auto"/>
+            </div>
+            <div className="overflow-hidden rounded-lg shadow-lg">
+                <img src="/images/gallery95.jpg" alt="Nail Art 1" className="w-full h-auto"/>
+            </div>
+
 
             <div className="overflow-hidden rounded-lg shadow-lg">
                 <img src="/images/gallery1.jpg" alt="Nail Art 1" className="w-full h-auto"/>
