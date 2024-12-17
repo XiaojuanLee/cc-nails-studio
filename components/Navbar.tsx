@@ -1,71 +1,181 @@
-// import Link from 'next/link';
-
-// export default function Navbar() {
-//   return (
-//     <nav className="bg-pink-600 text-white p-4">
-//       <div className="container mx-auto flex justify-between items-center">
-//         <h1 className="text-xl font-bold">CC Nails Studio</h1>
-//         <ul className="flex space-x-6">
-//           <li><Link href="/">Home</Link></li>
-//           <li><Link href="/services">Services</Link></li>
-//           <li><Link href="/book-now">Book Now</Link></li>
-//           <li><Link href="/gallery">Gallery</Link></li>
-//           <li><Link href="/about">About Us</Link></li>
-//         </ul>
-//       </div>
-//     </nav>
-//   );
-// }
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import { useState } from 'react';
 
 export default function Navbar() {
-  const router = useRouter(); 
+  const router = useRouter();
+  const [isOpen, setIsOpen] = useState(false); // State to control the mobile menu toggle
 
-  // Helper function to check if the link is active
+  // Helper function to check if a link is active
   const isActive = (pathname: string) => router.pathname === pathname;
 
   return (
-      <nav className="fixed top-0 left-0 w-full bg-white shadow-lg z-50 text-white p-0 border-b border-gray-200">
-        <div><p className='bg-pink-600 text-white text-center p-2 text-3xl'>CC Nails Studio</p></div>
+    <nav className="fixed top-0 left-0 w-full bg-white shadow-lg z-50 border-b border-gray-200">
+      {/* Top Title Section */}
+      <div>
+        <p className="bg-pink-600 text-white text-center p-2 text-2xl md:text-3xl font-bold">
+          CC Nails Studio
+        </p>
+      </div>
 
-        <div className="text-black py-2">
-          <div className="relative container mx-auto py-2">
-
-            {/* Logo */}
-            <img src="/images/cclogo.png" alt="" className="h-10 w-auto pl-10"/>
-            
-            <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-2xl">
-              <ul className="flex space-x-6">
-                <li>
-                  <Link href="/" className={isActive('/') ? 'text-pink-600 font-semibold' : 'hover:text-black'}>
-                    Home
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/services" className={isActive('/services') ? 'text-pink-600 font-semibold' : 'hover:text-pink-500 hover:underline'}>
-                    Services
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/book-now" className={isActive('/book-now') ? 'text-pink-600 font-semibold' : 'hover:text-pink-500 hover:underline'}>
-                    Book Now
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/gallery" className={isActive('/gallery') ? 'text-pink-600 font-semibold' : 'hover:text-pink-500 hover:underline'}>
-                    Gallery
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/about" className={isActive('/about') ? 'text-pink-600 font-semibold' : 'hover:text-pink-500 hover:underline'}>
-                    About Us
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </div>
+      {/* Main Navbar Container */}
+      <div className="container flex md:justify-start items-center p-2 justify-between">
+        {/* Logo on the Left */}
+        <div className='pr-10'>
+          <img
+            src="/images/cclogo.png"
+            alt="CC Nails Logo"
+            className="h-10 w-auto"
+          />
         </div>
-      </nav>
+
+        {/* Mobile Menu Button */}
+        <div className="md:hidden">
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className="text-black text-lg focus:outline-none"
+          >
+            {isOpen ? 'Close' : 'Menu'}
+          </button>
+        </div>
+
+        {/* Desktop Navigation Menu */}
+        <ul className="hidden md:flex space-x-6 text-lg">
+          <li>
+            <Link
+              href="/"
+              className={
+                isActive('/')
+                  ? 'text-pink-600 font-semibold'
+                  : 'hover:text-pink-500'
+              }
+            >
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/services"
+              className={
+                isActive('/services')
+                  ? 'text-pink-600 font-semibold'
+                  : 'hover:text-pink-500'
+              }
+            >
+              Services
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/book-now"
+              className={
+                isActive('/book-now')
+                  ? 'text-pink-600 font-semibold'
+                  : 'hover:text-pink-500'
+              }
+            >
+              Book Now
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/gallery"
+              className={
+                isActive('/gallery')
+                  ? 'text-pink-600 font-semibold'
+                  : 'hover:text-pink-500'
+              }
+            >
+              Gallery
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/about"
+              className={
+                isActive('/about')
+                  ? 'text-pink-600 font-semibold'
+                  : 'hover:text-pink-500'
+              }
+            >
+              About Us
+            </Link>
+          </li>
+        </ul>
+      </div>
+
+      {/* Mobile Navigation Menu */}
+      {isOpen && (
+        <div className="mb md:hidden">
+          <ul className="bg-gray-100 text-black space-y-2 p-4 text-center">
+            <li>
+              <Link
+                href="/"
+                className={
+                  isActive('/')
+                    ? 'text-pink-600 font-semibold'
+                    : 'hover:text-pink-500'
+                }
+                onClick={() => setIsOpen(false)} // Close menu when a link is clicked
+              >
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/services"
+                className={
+                  isActive('/services')
+                    ? 'text-pink-600 font-semibold'
+                    : 'hover:text-pink-500'
+                }
+                onClick={() => setIsOpen(false)}
+              >
+                Services
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/book-now"
+                className={
+                  isActive('/book-now')
+                    ? 'text-pink-600 font-semibold'
+                    : 'hover:text-pink-500'
+                }
+                onClick={() => setIsOpen(false)}
+              >
+                Book Now
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/gallery"
+                className={
+                  isActive('/gallery')
+                    ? 'text-pink-600 font-semibold'
+                    : 'hover:text-pink-500'
+                }
+                onClick={() => setIsOpen(false)}
+              >
+                Gallery
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/about"
+                className={
+                  isActive('/about')
+                    ? 'text-pink-600 font-semibold'
+                    : 'hover:text-pink-500'
+                }
+                onClick={() => setIsOpen(false)}
+              >
+                About Us
+              </Link>
+            </li>
+          </ul>
+        </div>
+      )}
+    </nav>
   );
 }
