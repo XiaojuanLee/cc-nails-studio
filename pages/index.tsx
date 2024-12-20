@@ -15,7 +15,7 @@ export default function Home() {
           <img
             src="/images/homepage.png"
             alt="CC Nails Studio Banner"
-            className="w-full h-auto object-cover"
+            className="w-full h-auto object-cover " 
           />
         </div>
 
